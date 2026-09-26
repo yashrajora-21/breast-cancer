@@ -1,0 +1,42 @@
+[
+  {
+    "model": "Random Forest (solo)",
+    "accuracy": 0.9444444444444444,
+    "precision": 0.9368421052631579,
+    "recall": 1.0,
+    "f1_score": 0.967391304347826,
+    "roc_auc": 0.9603784742755765
+  },
+  {
+    "model": "SVM RBF (solo)",
+    "accuracy": 0.9629629629629629,
+    "precision": 0.9775280898876404,
+    "recall": 0.9775280898876404,
+    "f1_score": 0.9775280898876404,
+    "roc_auc": 0.9905381431105854
+  },
+  {
+    "model": "Neural Network (solo)",
+    "accuracy": 0.9722222222222222,
+    "precision": 0.9777777777777777,
+    "recall": 0.9887640449438202,
+    "f1_score": 0.9832402234636871,
+    "roc_auc": 0.989946777054997
+  },
+  {
+    "model": "Gradient Boosting (solo)",
+    "accuracy": 0.9537037037037037,
+    "precision": 0.9468085106382979,
+    "recall": 1.0,
+    "f1_score": 0.9726775956284153,
+    "roc_auc": 0.9852158486102897
+  },
+  {
+    "model": "HYBRID (Stacking Ensemble)",
+    "accuracy": 0.9722222222222222,
+    "precision": 0.967391304347826,
+    "recall": 1.0,
+    "f1_score": 0.9834254143646409,
+    "roc_auc": 0.9834417504435246
+  }
+]
